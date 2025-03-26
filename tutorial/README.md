@@ -102,6 +102,6 @@ Using a .diff for patching then recompiling with a makefile.<br />
 
 >using sudo since we are modifying/installing files under the root directory. [/usr/local/]
 <p> &emsp; </p>
-- Then run "sudo make clean install", cleaning up any leftover .rej/.orig files and recompiling dwm.<p></p>
+- Then running "sudo make clean install", cleaning up any leftover .rej/.orig files and recompiling dwm.<p></p>
 - We see the "fake-fullscreen" patch successfully installed, confining a "fullscreen" video to its own window space.
 <br />
