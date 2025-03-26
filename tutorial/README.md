@@ -47,8 +47,8 @@ Using a .diff file for patching then recompiling using a makefile.<br />
 </p>
 <p>
 - Navigate to the suckless website and find the patches link in the dwm subsection.<p></p>
-- Save the .diff file for the patch you want to your dwm source directory.<p></p>
-- Inside the dwm dir run "patch -p1 < (filename.diff)" to apply the patch. (-p1 means use current directory.)<p></p>
+- Save the .diff file for the patch you want into your dwm source directory.<p></p>
+- Inside the dwm directory run "patch -p1 < (filename.diff)" to apply the patch. (-p1 means use current directory.)<p></p>
   
 >A patch can also be reverted using "-R" instead of "-p1".
 </p>
