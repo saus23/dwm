@@ -5,7 +5,7 @@
 
 
 <h1>Patching and recompiling dwm</h1>
-Using a .diff for patching then recompiling with a makefile.<br />
+Using a .diff file for patching then recompiling using a makefile.<br />
 <p> &emsp; </p>
 
 
