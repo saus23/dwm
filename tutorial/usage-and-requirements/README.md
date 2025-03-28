@@ -45,7 +45,7 @@ High level overview of the components needed to run a window manager.<br />
 - Set GTK theming with lxappearance.<p></p>
 - Set your startup scripts and programs in ~/.xinitrc<p></p>
 - Search the repositories for and install your preferred file manager.<p></p>
-- Install a GUI text editor if wanted.<p></p>
+- Install a GUI text editor if needed.<p></p>
 - Install libreoffice for an office suite.<p></p>
 - Configure your shell for syntax highlighting, history, and autocomplete.<p></p>
 - Install nitrogen to set your wallpaper at login.<p></p>
