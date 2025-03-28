@@ -39,7 +39,7 @@ High level overview of the components needed to run a window manager.<br />
 <img src="https://i.imgur.com/dKp62E7.png" height="80%" width="80%" alt="WMs"/>
 </p>
 <p>
-- With dwm installed there are a few other components needed to round out the system.<p></p>
+- With a window manager installed there are a few other components needed to round out the system.<p></p>
 
 - Put general theme information into ~/.config/.Xresources<p></p>
 - Set GTK theming with lxappearance.<p></p>
