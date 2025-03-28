@@ -23,6 +23,7 @@ High level overview of the components needed to run a window manager.<br />
 - shell
 - file manager
 - text editor
+- compositor
 <p> &emsp; </p>
 
 
@@ -35,11 +36,19 @@ High level overview of the components needed to run a window manager.<br />
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/JGPzRXV.png" height="80%" width="80%" alt="suckless"/>
+<img src="https://i.imgur.com/dKp62E7.png" height="80%" width="80%" alt="WMs"/>
 </p>
 <p>
-- Navigate to the suckless website and find the patches link in the dwm subsection.<p></p>
-- Save the .diff file for the patch you want into your dwm source directory.<p></p>
-- Inside the dwm directory run "patch -p1 < (filename.diff)" to apply the patch. (-p1 means use current directory.)<p></p>
+- With dwm installed there are a few other components needed to round out the system.<p></p>
+
+- Put general theme information into ~/.config/.Xresources<p></p>
+- Set GTK theming with lxappearance.<p></p>
+- Set your startup scripts and programs in ~/.xinitrc<p></p>
+- Search the repositories for and install your preferred file manager.<p></p>
+- Install a GUI text editor if wanted.<p></p>
+- Install libreoffice for an office suite.<p></p>
+- Configure your shell for syntax highlighting, history, and autocomplete.<p></p>
+- Install nitrogen to set your wallpaper at login.<p></p>
+- Install and configure picom to handle window VSync, blurring, shadows, and corner rounding.<p></p>
 </p>
 <br />
