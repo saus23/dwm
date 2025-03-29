@@ -79,7 +79,7 @@ Using a .diff file for patching then recompiling using a makefile.<br />
 - Open the target file and the .rej file (preferably side by side).<p></p>
 - The .rej file will indicate any additions (+) or subtractions (-) it attempted on the target file.<p></p>
 - In the picture above we see an attempt to remove, and add a line, amounting to a simple value change.<p></p>
-- After working the change into the target file, the .rej (and .orig) file can be deleted.<p></p>
+- After working the changes into the target file, the .rej (and .orig) file can be deleted.<p></p>
 </p>
 <br />
 <p> &emsp; </p>
