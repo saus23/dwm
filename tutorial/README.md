@@ -103,5 +103,8 @@ Using a .diff file for patching then recompiling using a makefile.<br />
 >using sudo since we are modifying/installing files under the root directory. [/usr/local/]
 <p> &emsp; </p>
 - Then running "sudo make clean install", cleaning up any leftover .rej/.orig files and recompiling dwm.<p></p>
-- We see the "fake-fullscreen" patch successfully installed, confining a "fullscreen" video to its own window space.
+- We see the "fake-fullscreen" patch successfully installed, confining a "fullscreen" video to its own window space.<p></p>
+<p> &emsp; </p>
+
+[General usage and requirements](https://github.com/saus23/dwm/tree/main/tutorial/usage-and-requirements)
 <br />
