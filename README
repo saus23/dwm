@@ -1,9 +1,9 @@
 patches:
 -vanitygaps
--actualfullscreen		//may consider fake fullscreen
+-actualfullscreen      //may consider fake fullscreen
 -xresources
 -attatchbottom
--systray				//icon size patch?
+-systray      //icon size patch?
 -alttab
 -stackmfact
 -scratchpad
@@ -11,22 +11,22 @@ patches:
 -swallow
 -pertag
 -preserveonrestart
--locktagsfor			//modified to be toggled instead of on a timer
+-locktagsfor      //modified to be toggled instead of on a timer
 -noborder
--alwayscenter			//works for some popup menus like gimp's, but not with some like lutris (use float rules instead). based on the "center" patch, which may be more helpful as it adds a toggle rule in config.h
+-alwayscenter      //works for some popup menus like gimp's, but not with some like lutris (use float rules instead). based on the "center" patch, which may be more helpful as it adds a toggle rule in config.h
 
 -floatrules
--mainmon				//keep status bar from hoping monitors
--activemonitor			//always show colored bar on active monitor, even if no program is running
+-mainmon      //keep status bar from hoping monitors
+-activemonitor      //always show colored bar on active monitor, even if no program is running
 -accessnthmon
 
 
 ----
 consider:
--fakefullscreen			//locks "fullscreen" windows to their tiled space. eg. "fullscreen" youtube videos on left side of screen with terminals on the right. possibly usable for running small D2R instances (less vram usage). unsure if conflicts with "actualfullscreen"
+-fakefullscreen      //locks "fullscreen" windows to their tiled space. eg. "fullscreen" youtube videos on left side of screen with terminals on the right. possibly usable for running small D2R instances (less vram usage). unsure if conflicts with "actualfullscreen"
 
--steam					//shows as installed but dont believe its necessary
--cfacts					//may have more luck using this than "stackmfact"
+-steam      //shows as installed but dont believe its necessary
+-cfacts      //may have more luck using this than "stackmfact"
 
 
 ----
