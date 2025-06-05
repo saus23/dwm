@@ -132,7 +132,6 @@ static const Layout layouts[] = {
 /* commands */
 static const char *termcmd[]  = { TERMINAL, NULL };
 static const char *librewolfcmd[] = { "/bin/librewolf", NULL };
-static const char *mobalyticscmd[] = { "/home/saus/misc/appimages/Mobalytics-1.103.5_cd70fd43caaea64c2f888990883c6c66.AppImage", NULL };
 static const char *pcmanfmcmd[] = { "/usr/bin/pcmanfm", NULL };
 static const char *lutriscmd[] = { "/usr/bin/python3", "/usr/bin/lutris", NULL };
 static const char *leaguecmd[] = { "gamemoderun", "leagueoflegends", "start", NULL };
